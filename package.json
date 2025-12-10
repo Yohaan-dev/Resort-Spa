@@ -1,16 +1,16 @@
 {
-  "homepage": "https://Yohaan-dev.github.io/resort-spa",
   "name": "resort-spa",
+  "homepage": "https://Yohaan-dev.github.io/Resort-Spa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
